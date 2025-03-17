@@ -1,12 +1,43 @@
 *{
     font-family: 'poppins',sans-serif;
 }
-.root{
+:root{
     --header-height: 3rem;
     --font--semi: 600;
 }
 /* /===== colors =====/ */
-.root{
+:root{
    --first-color:  #FFC000;
    --second-color: #0E2431;
 }
+/* ===== fluency and responsivness ===== */
+:root{
+    --body-font: 'poppins',sans-serif;
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --mormal-font-size: 0.938rem;
+}
+@media screen and (min-width: 768px){
+    :root{
+        --big-font-size: 3.5rem;
+        --h2-font-size: 2rem;
+        --mormal-font-size: 1rem;
+    }
+}
+/* ===== margins ====== */
+:root{
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+}
+/*  ====== z-index ===== */
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+/* ===== base ===== */
