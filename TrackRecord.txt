@@ -6,3 +6,4 @@ added files and the work starts from monday
 started with the document
 --  done with nav partially in app.js
 --  doen with the skills and its css properties
+--  done with projects section too.. neeed to add my pictures over there
