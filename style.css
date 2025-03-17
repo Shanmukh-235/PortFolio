@@ -1,0 +1,12 @@
+*{
+    font-family: 'poppins',sans-serif;
+}
+.root{
+    --header-height: 3rem;
+    --font--semi: 600;
+}
+/* /===== colors =====/ */
+.root{
+   --first-color:  #FFC000;
+   --second-color: #0E2431;
+}
