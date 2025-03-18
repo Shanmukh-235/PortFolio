@@ -123,9 +123,7 @@ img {
   padding-top: 15px;
   font-weight: var(--font-semi);
 }
-.nav__list > .button{
-  margin-bottom: 15px;
-}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -159,7 +157,7 @@ img {
 }
 .nav__logo {
   color: var(--second-color);
-  margin-bottom: 15px;
+  padding-top: 5px;
 }
 .nav__toggle {
   color: var(--second-color);
