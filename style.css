@@ -376,6 +376,15 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+.swiper {
+  padding: 20px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
