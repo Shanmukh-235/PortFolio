@@ -51,30 +51,28 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
-
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    loop: true,
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+  slidesPerView: 1,
+  spaceBetween: 10, // Reduced gap
+  loop: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 10, // Apply same gap here too
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 10, // Apply same gap here too
     },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
-  });
+  },
+});
+sr.reveal(`.home__data, .home__social, .home__info`, {delay: 500});

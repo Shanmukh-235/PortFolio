@@ -376,13 +376,48 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+  /* =========== SWIPER - PROJECTS =========== */
+
 .swiper {
-  padding: 20px;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
+  align-items: stretch;
+  height: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  width: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--first-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 
