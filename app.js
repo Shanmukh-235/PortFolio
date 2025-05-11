@@ -51,6 +51,9 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
+
+/*==================== SWIPER ====================*/
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 5, // Reduced gap further
