@@ -53,7 +53,7 @@ const sr = ScrollReveal({
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  spaceBetween: 10, // Reduced gap
+  spaceBetween: 5, // Reduced gap further
   loop: true,
   grabCursor: true,
   pagination: {
@@ -67,12 +67,17 @@ var swiper = new Swiper(".mySwiper", {
   breakpoints: {
     768: {
       slidesPerView: 2,
-      spaceBetween: 10, // Apply same gap here too
+      spaceBetween: 5, // Apply same reduced gap here too
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 10, // Apply same gap here too
+      spaceBetween: 5, // Apply same reduced gap here too
     },
   },
 });
+
+// Increase height of the section containing the swiper
+const swiperSection = document.querySelector('.mySwiper').parentElement;
+swiperSection.style.height = '500px'; // Adjust height as needed
+
 sr.reveal(`.home__data, .home__social, .home__info`, {delay: 500});
