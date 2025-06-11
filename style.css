@@ -255,7 +255,7 @@ img {
 
 /* ===== SKILLS =====*/
 .skills__container {
-  row-gap: 2rem;
+  row-gap: 0;
   text-align: center;
 }
 .skills__subtitle {
@@ -320,12 +320,9 @@ img {
 .skills__sql {
   width: 60%;
 }
-
-
 .skills__img {
   border-radius: 0.5rem;
 }
-
 element.style {
     height:auto;
 }
