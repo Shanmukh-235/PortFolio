@@ -326,6 +326,10 @@ img {
   border-radius: 0.5rem;
 }
 
+element.style {
+    height:auto;
+}
+
 /* ===== CONTACT =====*/
 .contact__form {
   display: flex;
